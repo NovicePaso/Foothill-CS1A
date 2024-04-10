@@ -1,0 +1,72 @@
+// ----------------------------------------------------------------------------
+Sample expected run copied and pasted below as output in IDE's console.
+Note: In class TestStarBucks two output streams are used:
+      - Regular output is sent to standard output stream via System.out.print statements.
+      - Output to indicate tests that fail are directed to standard error stream
+         via System.err.print statements. Note that most IDEs display this in red.
+      Depending on your IDE, console output from System.out.print and System.err.print
+      may not show in order of execution.
+// ----------------------------------------------------------------------------
+Output with sample test cases:
+// ----------------------------------------------------------------------------
+In createOneStore(): Created store with name "1234 El Monte Road":
+Votes at store 1234 El Monte Road in Los Altos Hills, CA did  not unionize.
+
+In main(): Found 21 number of stores in our Starbucks world.
+
+In main(): Displaying all stores.
+We have captured votes for 21 store(s):
+Votes at store 20th Street and 3rd Ave in Birmingham, AL did unionize.
+Votes at store Katella & Los Alamitos in Los Alamitos, CA did  not unionize.
+Votes at store Clares & 41st in Capitola, CA did unionize.
+Votes at store Katella & Anaheim in Anaheim, CA did unionize.
+Votes at store Downtown Disney Store in Anaheim, CA did unionize.
+Votes at store Hwy 111 & Jefferson, La Quinta in La Quinta ,CA did unionize.
+Votes at store 2nd & Covina in Long Beach, CA did  not unionize.
+Votes at store Citrus & Rowland in Covina, CA did  not unionize.
+Votes at store Mason & Lassen in Los Angeles, CA did  not unionize.
+Votes at store Burton & Rosemont in Grand Rapids, MI did unionize.
+Votes at store Main & Liberty in Ann Arbor, MI did unionize.
+Votes at store South University & Church in Ann Arbor, MI did unionize.
+Votes at store State & Liberty in Ann Arbor, MI did unionize.
+Votes at store Jackson & Zeeb in Ann Arbor, MI did unionize.
+Votes at store Glencoe Crossing in Ann Arbor, MI did unionize.
+Votes at store Grand River & Stoddard in East Lansing, MI did unionize.
+Votes at store Miller Road & I-75 in Flint, MI did unionize.
+Votes at store Lake Lansing & Kerry St in Lansing, MI did unionize.
+Votes at store S. Saginaw Street in Grand Blanc, MI did  not unionize.
+Votes at store The Mall at Partridge Creek in Clinton Township, MI did unionize.
+Votes at store Carpenter Rd. in Ann Arbor, MI did unionize.
+
+In printStoreNames(): Found 21 stores in Starbucks world.
+20th Street and 3rd Ave
+Katella & Los Alamitos
+Clares & 41st
+Katella & Anaheim
+Downtown Disney Store
+Hwy 111 & Jefferson, La Quinta
+2nd & Covina
+Citrus & Rowland
+Mason & Lassen
+Burton & Rosemont
+Main & Liberty
+South University & Church
+State & Liberty
+Jackson & Zeeb
+Glencoe Crossing
+Grand River & Stoddard
+Miller Road & I-75
+Lake Lansing & Kerry St
+S. Saginaw Street
+The Mall at Partridge Creek
+Carpenter Rd.
+
+In testRTW(): testing select stores Right to Work status.
+Passed in testRTW(): for 20th Street and 3rd Ave found RTW to be true.
+Passed in testRTW(): for Katella & Los Alamitos found RTW to be false.
+
+In testYesFlagStores(): testing select stores on whether they voted yes to unionize.
+Passed in testYesFlagStores(): for 20th Street and 3rd Ave found vote to be true.
+Passed in testYesFlagStores(): for Katella & Los Alamitos found vote to be false.
+In main(): Done.
+Failed in testYesFlagStores(): for 20th Street and 3rd Ave found invalid vote to be true.
